@@ -3,7 +3,9 @@ package com.example.stellarScanOrbit;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "https://stellerscan.netlify.app/")
+//@CrossOrigin(origins = "https://stellerscan.netlify.app/")
+//@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class SatelliteController {
